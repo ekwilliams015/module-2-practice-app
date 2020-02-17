@@ -8,16 +8,16 @@
 
     </head>
 
-
+    <header>Maitre D</header>
     <body>
-        <h1>Maitre D</h1>
+        
         <div class="table">
-            <label>Total: </label><input type="number" name="total" placeholder="Input Total Amount" id="total"><br>
-            <label>Rate: </label><input type="number" step="0.01" min="0" max="1" name="rate" placeholder="Input Tip Percentage" id="rate">
+            <label>Total: </label><input type="number" name="total" placeholder="Total Amount" id="total"><br>
+            <label>Tip: </label><input type="number" step="0.01" min="0" max="1" name="rate" placeholder="Tip %" id="rate">
             <div id="Input">
-                <div class="classification">Tip: </div><div class="output" id="tipAmount">$0</div>
-                <div class="classification">Tax: </div><div class="output" id="taxAmount">$0</div>
-                <div class="classification">Total After Tip & Tax: </div><div class="outputText" id="TotalAmount">$0</div>
+                <div class="class">Tip: </div><div class="output" id="tipAmount">$0</div>
+                <div class="class">Tax: </div><div class="output" id="taxAmount">$0</div>
+                <div class="class">Total After Tip & Tax: </div><div class="outputText" id="TotalAmount">$0</div>
             </div>
             <input id="button" type="submit" value="calculate" name="submit" onclick="calculate()">
         </form>

@@ -1,7 +1,15 @@
-.classification{
+header{
+    text-decoration: underline, bold;
+    font-style: sans-serif;
+    font-size: x-large;
+    background-color: blue;
+    color: white;
+}
+.class{
     font-weight: bold;
     font-family: sans-serif;
-    padding: 25px 15px 25px 15px;
+    text-align: left;
+
 }
 
 body{
@@ -15,8 +23,11 @@ body{
 
 #button{
     font-size: large;
-    
+    background-color: blue;
+    color: white;
 }
+
+
 #rate{
     padding: 10px 25px;
     font-size: 1.5em;
@@ -24,11 +35,9 @@ body{
 
 label{
     text-align: center;
-    font-size: 2em;
+    font-size: .75;
     font-family: sans-serif;
     padding-left: 50;
     
 }
-h1{
-    font-family: sans-serif;
-}
+
