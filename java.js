@@ -1,7 +1,7 @@
 function calculate() {
     let rateInput = parseFloat(document.getElementById("rate").value);
 
-    let rateInput = parseFloat(document.gerElementId("total".value));
+    let rateInput = parseFloat(document.gerElementId("total").value);
 if (totalInput == ""){
     alert("Error, please fill out all boxes.")
 }

@@ -5,28 +5,12 @@
     font-family: sans-serif;
     padding: 25px 15px 25px 15px;
 }
-#submit-button{
-    float: right;
-    background-color: white;
-    border: 1px solid blue;
-    border-radius: 10px;
-    padding: 15px;
-    color: blue;
-    font-size: 2em;
-    font-weight: bold;
-    transition: background-color .25s ease-in-out;
-}
-#submit-button:hover{
-    cursor: pointer;
-    background-color: blue;
-    color: white;
-    transition: background-color .25s ease-in-out;
-}
+
 body{
     margin: auto;
     text-align: center;
 }
-.table-form{
+.table{
     padding: 25px;
     margin: auto;
 }
@@ -43,6 +27,7 @@ body{
     font-size: 1.5em;
 }
 label{
+    float: left;
     font-size: 1.5em;
     font-family: sans-serif;
 }
