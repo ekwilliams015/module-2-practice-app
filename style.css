@@ -1,35 +1,33 @@
 .classification{
-    
     font-weight: bold;
-    color: blue;
     font-family: sans-serif;
     padding: 25px 15px 25px 15px;
 }
 
 body{
-    margin: auto;
     text-align: center;
 }
-.table{
-    padding: 25px;
-    margin: auto;
-}
+
 #total{
-    border: 1px solid blue;
-    border-radius: 15px;
     padding: 10px 25px;
     font-size: 1.5em;
+}
+
+#button{
+    font-size: large;
+    
 }
 #rate{
-    border: 1px solid blue;
-    border-radius: 15px;
     padding: 10px 25px;
     font-size: 1.5em;
 }
+
 label{
-    float: left;
-    font-size: 1.5em;
+    text-align: center;
+    font-size: 2em;
     font-family: sans-serif;
+    padding-left: 50;
+    
 }
 h1{
     font-family: sans-serif;

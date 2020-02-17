@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Tip Calculator - Elijah Williams</title>
+        <title>Tip/Tax Calculator - Elijah Williams</title>
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="style.css">
-        <script src="java.js"></script>
+        <script src="javas.js"></script>
+
     </head>
+
+
     <body>
         <h1>Maitre D</h1>
         <div class="table">
-            <label>Total: </label><input type="number" name="total" placeholder="Amount Before Tip" id="total"><br>
-            <label>Rate: </label><input type="number" step="0.01" min="0" max="1" name="rate" placeholder="Tip %" id="rate">
+            <label>Total: </label><input type="number" name="total" placeholder="Input Total Amount" id="total"><br>
+            <label>Rate: </label><input type="number" step="0.01" min="0" max="1" name="rate" placeholder="Input Tip Percentage" id="rate">
             <div id="Input">
-                <div class="classification">Tip: </div><div class="output" id="tipAmount">$0</div>
-                <div class="classification">Tax: </div><div class="output" id="taxAmount">$0</div>
-                <div class="classification">Total With Tip: </div><div class="output" id="TotalAmount">$0</div>
+                <div class="classification">Tip: </div><div class="outputText" id="tipAmount">$0</div>
+                <div class="classification">Tax: </div><div class="outputText" id="taxAmount">$0</div>
+                <div class="classification">Total After Tip & Tax: </div><div class="outputText" id="TotalAmount">$0</div>
             </div>
-            <input id="calculate-button" type="submit" value="calculate" name="submit" onclick="calculate()">
+            <input id="button" type="submit" value="calculate" name="submit" onclick="calculate()">
         </form>
+
+
+
     </body>
+
+
+
+
+
+
+
 </html>
