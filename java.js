@@ -18,5 +18,7 @@ function calculate(){
 
 function taskEstimator(countOfStories, avgTasksPerStory){
     const taskEstimator = countOfStories*avgTasksPerStory;
-let countOfStories = parseFloat(document.getElementById())
+let countOfStories = parseFloat(document.getElementById("count").value)
+let avgTasksPerStory = parseFloat(document.getElementById("avg").value)
+
 }
