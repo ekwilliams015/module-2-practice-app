@@ -31,9 +31,9 @@
         <label>Tasks </label><input type="number" step = "1" name="rate" placeholder="avgTasksPerStory" id="avg">
         <div id="Input">
             
-            <div class="class">Total: </div><div class="outputText" id="TotalCount">0</div>
+            <div class="class">Total: </div><div class="outputText" id="totalCount">0</div>
         </div>
-        <input id="button" type="submit" value="Estimate Tasks" name="submit" onclick="TaskEstimator()">
+        <input id="button" type="submit" value="Estimate Tasks" name="submit" onclick="TaskEstimator(countOfStories, avgTasksPerStory)">
 </form>
 </section>
 </article>
