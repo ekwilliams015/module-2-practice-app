@@ -10,7 +10,8 @@
 
     <header>Maitre D</header>
     <body>
-        
+        <article>            
+<section>
         <div class="table">
             <label>Total: </label><input type="number" name="total" placeholder="Total Amount" id="total"><br>
             <label>Tip: </label><input type="number" step="0.01" min="0" max="1" name="rate" placeholder="Tip %" id="rate">
@@ -21,18 +22,21 @@
             </div>
             <input id="button" type="submit" value="calculate" name="submit" onclick="calculate()">
         </form>
-
+    </section>
+<br>
+<section>
 <form>
     <div class="table">
         <label>Count </label><input type="number" name="total" placeholder="count" id="count"><br>
         <label>Tasks </label><input type="number" step = "1" name="rate" placeholder="avgTasksPerStory" id="avg">
         <div id="Input">
             
-            <div class="class">Total: </div><div class="outputText" id="TotalAmount">0</div>
+            <div class="class">Total: </div><div class="outputText" id="TotalCount">0</div>
         </div>
-        <input id="button" type="submit" value="taskEstimator" name="submit" onclick="TaskEstimator()">
+        <input id="button" type="submit" value="Estimate Tasks" name="submit" onclick="TaskEstimator()">
 </form>
-
+</section>
+</article>
     </body>
 
 

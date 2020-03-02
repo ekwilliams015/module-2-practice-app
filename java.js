@@ -15,10 +15,11 @@ function calculate(){
     return false;
 }
 
-
+// App Challenge Function
 function taskEstimator(countOfStories, avgTasksPerStory){
     const taskEstimator = countOfStories*avgTasksPerStory;
 let countOfStories = parseFloat(document.getElementById("count").value)
 let avgTasksPerStory = parseFloat(document.getElementById("avg").value)
+document.getElementById("TotalCount").innerHTML = countOfStories*avgTasksPerStory;
 
 }
