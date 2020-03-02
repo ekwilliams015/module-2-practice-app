@@ -14,3 +14,9 @@ function calculate(){
     document.getElementById("TotalAmount").innerHTML = "$" + (userTotal + (userTotal*userRate) + (userRate*0.055));
     return false;
 }
+
+
+function taskEstimator(countOfStories, avgTasksPerStory){
+    const taskEstimator = countOfStories*avgTasksPerStory;
+let countOfStories = parseFloat(document.getElementById())
+}
